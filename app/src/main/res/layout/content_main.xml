@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffdfeaf2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_name"
+            android:id="@+id/textView"
+            android:textSize="20sp"
+            android:padding="10sp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:text="@string/button1_name"
+            android:id="@+id/button"
+            style="@style/buttonStyle"
+            android:background="@color/colorOrange"
+            android:onClick="displayToast"
+            />
+
+        <Button
+            android:text="@string/button2_name"
+            android:id="@+id/button2"
+            android:background="@color/colorOrange"
+            style="@style/buttonStyle"
+            android:onClick="displayToast"
+            />
+
+        <Button
+            android:text="@string/button3_name"
+            android:id="@+id/button3"
+            android:background="@color/colorOrange"
+            style="@style/buttonStyle"
+            android:onClick="displayToast"
+            />
+
+        <Button
+            android:text="@string/button4_name"
+            android:id="@+id/button4"
+            android:background="@color/colorOrange"
+            android:onClick="displayToast"
+            style="@style/buttonStyle"/>
+
+        <Button
+            android:text="@string/button5_name"
+            android:id="@+id/button5"
+            android:background="@color/colorOrange"
+            android:onClick="displayToast"
+            style="@style/buttonStyle"/>
+
+        <Button
+            android:text="@string/button6_name"
+            android:background="@color/colorRed"
+            android:id="@+id/button6"
+            style="@style/buttonStyle"
+            android:onClick="displayToast"
+
+            />
+    </LinearLayout>
+</ScrollView>
